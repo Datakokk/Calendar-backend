@@ -1,4 +1,4 @@
-# Calendario-backend
+# Calendar-backend
 We create the folder, then inside the folder we execute the following command:
 
     npm init -y
@@ -56,6 +56,9 @@ To run our server in a traditional way:
     npm i cors
 
     https://enable-cors.org/
-# Calendar-backend
-# Calendar-backend
-# Calendar-backend
+
+## Moment.js
+
+    npm i moment
+
+https://momentjs.com/

@@ -22,7 +22,7 @@ app.use( express.json() );
 
 // Routes
 app.use('/api/auth', require('./routes/auth'));
-// TODO: CRUD: Events
+app.use('/api/events', require('./routes/events'));
 
 // listen request
 app.listen( PORT, () => {
