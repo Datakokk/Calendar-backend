@@ -27,7 +27,7 @@ To run our server in a traditional way:
 
     npm i dotenv
 
-    require('dotenv').config();
+require('dotenv').config();
 
 ### HTTP Status Codes
 
@@ -49,13 +49,13 @@ To run our server in a traditional way:
 
     npm i jsonwebtoken
 
-    https://jwt.io/
+https://jwt.io/
 
 ## CORS
 
     npm i cors
 
-    https://enable-cors.org/
+https://enable-cors.org/
 
 ## Moment.js
 
