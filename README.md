@@ -68,3 +68,10 @@ https://momentjs.com/
     https://railway.app/
 
 https://calendar-backend-production-b7ef.up.railway.app/
+
+
+## Cannot GET /auth/login
+
+    app.get('*', ( req, res ) => {
+        res.sendFile(__dirname, '/public/index.html');
+    })
