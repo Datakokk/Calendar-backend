@@ -43,7 +43,6 @@ const updateEvent = async (req, res = response) => {
     try {
 
         const event = await Event.findById( eventId );
-        console.log(event.user)
         if( !event ){
             return res.status(404).json({
                 ok: false,
