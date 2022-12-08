@@ -43,7 +43,7 @@ const updateEvent = async (req, res = response) => {
     try {
 
         const event = await Event.findById( eventId );
-        
+        console.log(event.user)
         if( !event ){
             return res.status(404).json({
                 ok: false,
@@ -51,7 +51,7 @@ const updateEvent = async (req, res = response) => {
             })
         };
 
-        if( event.user !== uid){
+        if( event.user.toString() !== uid){
             return res.status(401).json({
                 ok:false,
                 msg: 'you do not have privileges to edit this event'
